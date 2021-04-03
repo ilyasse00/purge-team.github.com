@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: rgb(242, 242, 247);
+    height: 80px;
+}
+#head .logo h1{
+    margin-left: 60px;
+    color: rgb(247, 250, 253);
+    line-height: 100px;
+    margin-bottom: 60px;
+}   
+#head .flex{
+    display: flex;
+    padding-left: 100px;
+}
+#head .recherche input{
+    margin-left: 150px;
+    padding-left: 60px;
+}
+#head .recherche input{
+    width: 600px;
+    margin-top: 20px;
+    padding-left: 60px;
+}
+#head .mini-nav{
+    margin-left: 80px;
+}
+#head .mini-nav i{
+    color: beige;
+    font-size: 35px;
+    margin-left: 100px;
+    line-height: 80px;
+}
+#nouveau .btn-femme.li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn-femme {
+    top: 30%;
+    left: 50%;
+    right: 20%;
+}
+/*---------------netoyage--------*/
+.clear{
+    clear: both;
+}
+
+/*--------------nouveau produit----------*/
+#nouveau{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#nouveau i{
+    color: rgb(182, 10, 10);
+}
+
+#nouveau h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#nouveau h2::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: rgb(182, 10, 10);
+    display: block;
+    margin: 15px auto;
+}
+
+#nouveau .btn-femme :hover{
+    margin-right: 700px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(14, 12, 143);
+    border: rgb(10, 8, 129);
+    margin-left: 100px;
+}
+#nouveau .col-4 img{
+   display: flex;
+   padding-left: 100px;
+}
+#nouveau .btn-femme:hover{
+    background-color: rgb(3, 3, 61);
+}
